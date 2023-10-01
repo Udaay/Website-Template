@@ -1,11 +1,24 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
-/* font-family: 'Saira Stencil One', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+/* Global Styles */
 html {
     font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Custom Fonts */
 @font-face {
     font-family: himaloy;
     src: url(../assets/vendor/font/bangla/Unicode/himaloy.ttf) format("truetype");
@@ -16,33 +29,7 @@ html {
     src: url(../assets/vendor/font/bangla/Unicode/himaloy_italic.ttf);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-/*! Reste end hear  */
-
-/* body {
-    background-image: url(../assets/bg-main-body.svg);
-    z-index: 99999999;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    top: 0;
-    left: 0;
-} */
-
+/* Header Styles */
 .header {
     background-color: #111416;
 }
@@ -74,20 +61,9 @@ a {
     font-size: 5rem;
     font-family: 'Saira Stencil One', cursive;
     mix-blend-mode: multiply;
-
 }
 
-/* nav a {
-    font-family: 'Saira Stencil One', cursive;
-    font-size: 5rem;
-    letter-spacing: 2.2px;
-    background: -webkit-linear-gradient(94.23deg, #5374fa 12.41%, #fd9179 52.55%, #ff6969 89.95%);
-    background: linear-gradient(94.23deg, #5374fa 12.41%, #fd9179 52.55%, #ff6969 89.95%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
-
+/* Header Hero Styles */
 .header__hero {
     height: 85vh;
     display: flex;
@@ -108,6 +84,7 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+/* Button Styles */
 .btn {
     text-decoration: none;
     margin: 10rem auto 0 auto;
@@ -115,20 +92,8 @@ a {
     border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 1;
 }
 
-.btn-big {
+.btn-big, .btn-big-big, .btn-small {
     padding: 1.5rem 2.5rem;
-    font-size: 2rem;
-    border-width: 4px;
-}
-
-.btn-big-big {
-    padding: 1.5rem 4.5rem;
-    font-size: 2rem;
-    border-width: 4px;
-}
-
-.btn-small {
-    padding: 1rem 1.5rem;
     font-size: 2rem;
     border-width: 4px;
 }
@@ -145,50 +110,36 @@ a {
     margin-left: 1rem;
 }
 
-/*
-======================================
-        !header hero end hear 
-======================================
-*/
-
+/* Main Content Styles */
 .main {
     background-color: whitesmoke;
 }
 
-.main .section__about {
+.section__about {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     padding: 0 4%;
-    /* padding: auto 0; */
 }
 
-.main .section__about .section__about--box {
+.section__about--box {
     height: 55rem;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    /* padding: ; */
 }
 
-.main .section__about .section__about--box img {
+.section__about--box img {
     height: 45rem;
 }
 
-.main .section__about .section__about--box p {
+.section__about--box p {
     font-size: 2.3rem;
     text-align: justify;
 }
 
-/*
-======================================
-        !Section about end hear
-======================================
-*/
-
+/* Significant Section Styles */
 .section__significant {
     background-color: #111416;
     display: flex;
@@ -221,33 +172,18 @@ a {
     text-align: justify;
 }
 
-/*
-======================================
-    !Section significant end hear
-======================================
-*/
-
+/* Mission Section Styles */
 .section__mission {
-    /* background-color: whitesmoke; */
-    /* height: 40rem; */
     display: flex;
     flex-direction: column;
     padding: 5rem 0;
 }
 
-.section__mission--box1 {
-    /* height: 25rem; */
-    /* background: red; */
-    padding: 5rem 4%;
-    width: 100%;
-}
-
-.section__mission--box1 div {
+.section__mission--box1, .section__mission--box2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: rgb(165, 165, 165); */
-    padding: 5rem 0;
+    padding: 0 4%;
 }
 
 .section__mission--box1 h2 {
@@ -259,28 +195,11 @@ a {
     width: 60%;
 }
 
-.section__mission--box1 a {
-    margin: 0 auto;
-}
-
-.section__mission--box2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 4%;
-}
-
 .section__mission--box2 img {
     height: 35rem;
-    /* background: gray; */
 }
 
-/*
-======================================
-    !Section mission end hear
-======================================
-*/
-
+/* Footer Styles */
 footer {
     background-color: #111416;
     color: white;
