@@ -1,0 +1,213 @@
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1023px) {
+  .cityFeature {
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .long-copy {
+    line-height: 125%;
+    min-width: 50%;
+    margin-left: 25%;
+  }
+}
+
+/* Tablet devices */
+@media only screen and (max-width: 780px) {
+  .section-subscriptionPlans {
+    font-size: 80%;
+  }
+
+  .main-nav {
+    display: none;
+    flex-direction: column;
+    padding: 0px 20px;
+    padding-top: 15px;
+  }
+
+  .mobile-nav-icon {
+    display: flex;
+    margin: 20px;
+    font-size: 80%;
+    flex-grow: 3;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 8px 20px;
+  }
+
+  .plan-card {
+    min-width: 0;
+    width: 30%;
+    margin: 0px 2%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+
+  .logo-black {
+    margin-left: 5%;
+    height: 70px;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited,
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 2px 0px;
+  }
+
+  .sticky .main-nav {
+    padding-top: 4px;
+  }
+  .sticky .main-nav li {
+    margin-top: 4px;
+  }
+
+  /*------------Cities--------------------- */
+
+  .section-cities {
+    padding: 30px 0px;
+  }
+
+  .citiesContainer {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* Mobile devices width in range 0 to 480px */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+    font-size: 90%;
+  }
+
+  .logo {
+    height: 70px;
+  }
+  .hero-text-box {
+    left: 40%;
+  }
+
+  .row-center {
+    padding: 0px 1%;
+  }
+
+  .mobile-nav-icon {
+    margin: 13px 30px 0px 10px;
+  }
+
+  .row-logo {
+    flex-direction: row !important;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .long-copy {
+    margin-left: 10% !important;
+  }
+
+  .box {
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-features {
+    padding: 50px 30px;
+  }
+
+  /*------------- Meals showCase----------- */
+  .meals-showcase li {
+    width: 50%;
+  }
+
+  .meals-showcase {
+    flex-wrap: wrap;
+  }
+
+  /* How it works ---------------------*/
+
+  .section-steps {
+    padding: 40px 20px;
+  }
+
+  .stepsContainer {
+    padding: 0px 25px;
+  }
+
+  .howItWorks {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+  }
+  .work-steps:last-of-type {
+    margin-bottom: 30px;
+  }
+
+  .app-screen {
+    width: 150px;
+  }
+
+  /* Testimonals-------------- */
+
+  blockquote::before {
+    margin-top: 5px;
+  }
+
+  .section-testimonals {
+    padding: 40px 30px;
+  }
+
+  .testimonalCard {
+    margin-top: 40px;
+  }
+
+  cite {
+    margin-top: 10px;
+  }
+
+  /* Plams Details------------ */
+
+  .plans-details {
+    flex-direction: column;
+  }
+
+  .plan-card {
+    width: 90%;
+    flex-flow: column;
+    margin: 2% 5%;
+  }
+
+  .section-subscriptionPlans {
+    padding: 30px 0px;
+  }
+
+  /* form------- */
+  .contact-form {
+    width: 90%;
+  }
+}
